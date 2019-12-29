@@ -10,5 +10,5 @@ jobs:
       uses: sebastianpopp/git-ftp-action@releases/v2
       with:
         url: "ftp://swipeupgames.com/testing/"
-        user: "swipeupgames"
-        password: "s?RZ+)m-}^mK"
+        user: ""
+        password: ""
