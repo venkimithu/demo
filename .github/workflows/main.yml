@@ -9,6 +9,6 @@ jobs:
     - name: git-ftp push
       uses: sebastianpopp/git-ftp-action@releases/v2
       with:
-        url: "ftp://ftp.swipeupgames.com/testing/"
+        url: "ftp://swipeupgames.com/testing/"
         user: "swipeupgames"
         password: "s?RZ+)m-}^mK"
