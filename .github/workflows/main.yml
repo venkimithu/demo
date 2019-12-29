@@ -1,0 +1,14 @@
+name: Deploy via git-ftp
+on: push
+jobs:
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: git-ftp push
+      uses: sebastianpopp/git-ftp-action@releases/v2
+      with:
+        url: "ftp://ftp.swipeupgames.com"
+        user: "swipeupgames"
+        password: "s?RZ+)m-}^mK"
